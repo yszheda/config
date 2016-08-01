@@ -17,3 +17,15 @@ $ tmux source ~/.tmux.conf
 ```
 
 - Press `prefix + I` to install tmux plugins.
+
+## zsh
+
+- Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh):
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+or
+```
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
